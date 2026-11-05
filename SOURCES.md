@@ -2,7 +2,11 @@
 
 ## Book
 
-The source is ‘DRAFT for final publication - the 99 essential business questions.pdf’, dated 1 August 2016 in the file archive and circulated on 4 August. Both recovered copies have identical bytes. The manuscript contains 99 question entries and 47 management situations, as well as the preface, introduction, guidance, and account of the book’s origin.
+The principal source is ‘99 Essential Questions UPDATED FINAL LAYOUT 23rd Feb 2017.pdf’, a 360-page revised print layout sent by the publisher on 23 February 2017. The accompanying message says it is being uploaded to the printers. The question browser uses this later layout.
+
+The downloadable `dist/assets/book.pdf` preserves all 360 pages and their content. Only the viewable page bounds change: each page is cropped to its existing print TrimBox to remove production marks. The source contains no PDF comments or annotations.
+
+Earlier witnesses include ‘DRAFT for final publication - the 99 essential business questions.pdf’, dated 1 August 2016 in the file archive and circulated on 4 August. Both recovered copies have identical bytes. The October 2016 attachment ‘The 99 questions.docx’ supplies another complete numbered list. Earlier witnesses were compared during source recovery; they don’t override the revised print layout.
 
 The site corrects mechanical PDF text extraction damage, including misplaced drop capitals and font ligatures. It preserves the authors’ wording. Source-specific corrections to cross-references are recorded in the data rather than concealed.
 
@@ -10,7 +14,7 @@ The original cover comes from ‘the 99 ESSENTIAL BUSINESS QUESTIONS + spine and
 
 ## Dimensions
 
-Ten dimensions, their explanations, examples, and question memberships were recovered from the 15 July 2014 development manuscript. The question-number audit compares all 99 headings with the later manuscript: 96 match after punctuation, spacing, and extraction corrections. Q78 adds ‘can’, Q79 changes an investment amount, and Q93 changes ‘Who’ to ‘Whom’. All retain the same number.
+Ten dimensions, their explanations, examples, and question memberships were recovered from the 15 July 2014 development manuscript. All 99 question numbers were checked against the later headings. The wording of a few prompts changed during editing; the numbering did not. Question 79 in the revised print layout uses £100K. The original dimension memberships retain their numbers.
 
 The dimensions were removed during editing before publication. They appear here with their earlier status. Their question links are independent of the publication manuscript’s situation links. A later experimental eleventh dimension is not mixed into the original ten.
 

@@ -8,7 +8,9 @@ The site also contains the book’s opening sections and recovered companion wri
 
 ## Source text
 
-The complete book source recovered for this edition is the 363-page August 2016 publication manuscript. It is labelled ‘Draft for final publication’. The copies in the authors’ file archive and the 4 August email circulation are byte-identical. Later revision links lead to an inactive service, so this edition has not been collated against the final printed book.
+The main source is the 360-page revised print layout dated 23 February 2017, recovered from the publisher’s correspondence. The accompanying message confirms it was being uploaded to the printers. The downloadable reading copy retains every page and crops only to the source’s existing print trim boxes, removing production marks. It includes the illustrations, diagrams, and author biographies.
+
+The source search also recovered the 363-page August 2016 publication manuscript, an October 2016 list of all 99 questions, earlier development manuscripts, and companion writing. The later print layout takes precedence in the question browser.
 
 The ten dimensions come from the July 2014 manuscript. All 99 question numbers were checked against the wording in the 2016 manuscript; the numbers did not change. Three prompts changed wording or amount. These dimensions are an additional index and retain their development status. They do not replace the situation associations in the publication manuscript.
 

@@ -88,8 +88,13 @@ function openQuestion(id, updateHash = true) {
   if (asArray(question.references).length) {
     const referenceSection = document.createElement('section');
     referenceSection.className = 'reader-section';
-    referenceSection.innerHTML = `<h3>References in the manuscript</h3>${paragraphs(question.references)}<p class="reader-provenance">These references are reproduced from the 2016 manuscript.</p>`;
+    referenceSection.innerHTML = `<h3>References in the book</h3>${paragraphs(question.references)}<p class="reader-provenance">These references appear in the source edition.</p>`;
     $('.reader-provenance', $('#reader-body')).before(referenceSection);
+  }
+  for (const correction of asArray(question.corrections)) {
+    const note = document.createElement('p'); note.className = 'notice';
+    note.textContent = `Source correction: ${correction.note ?? correction}`;
+    $('.reader-provenance', $('#reader-body')).before(note);
   }
   if (updateHash) history.replaceState(null, '', `#q-${question.id}`);
 }
@@ -219,10 +224,18 @@ try {
   state.universal = book.universalQuestions ?? [];
   state.sourceLabel = typeof book.source === 'string' ? book.source : `${book.source?.label ?? 'Publication manuscript'}${book.source?.date ? ` · ${displayDate(book.source.date)}` : ''}`;
   $('#book-sections').innerHTML = Object.entries(state.intro).map(([id, section]) => `<button class="button button-plain" data-intro="${esc(id)}" type="button">${esc(section[0])} ↗</button>`).join('');
-  for (const situation of state.situations) $('#situation').add(new Option(`${situation.id}. ${situation.text ?? situation.title}`, situation.id));
+  const situationGroups = new Map();
+  for (const situation of state.situations) {
+    const groupName = situation.group ?? 'Situations';
+    if (!situationGroups.has(groupName)) {
+      const group = document.createElement('optgroup'); group.label = groupName;
+      situationGroups.set(groupName, group); $('#situation').append(group);
+    }
+    situationGroups.get(groupName).append(new Option(`${situation.id}. ${situation.text ?? situation.title}`, situation.id));
+  }
   for (const dimension of state.dimensions) $('#dimension').add(new Option(dimensionTitle(dimension), dimension.id));
   $('#writing-grid').innerHTML = state.writing.map(item => `<button class="reading-link" data-writing="${esc(item.id)}" type="button"><span class="eyebrow">${esc(item.author)}${item.date ? ` · ${esc(displayDate(item.date, !item.status?.startsWith('Historical')))}` : ''}</span><h3>${esc(item.title)}</h3>${item.summary ? `<p>${esc(item.summary)}</p>` : ''}${item.status ? `<span class="writing-status">${esc(item.status)}</span>` : ''}<span class="reading-arrow" aria-hidden="true">↗</span></button>`).join('');
-  $('#edition-note').innerHTML = `<p>${esc(book.editionNote ?? state.sourceLabel)}</p>${book.source?.status ? `<p>${esc(book.source.status)}</p>` : ''}<p>The complete August manuscript was recovered from the authors’ files. Later revision links couldn’t be retrieved. The site hasn’t been collated against a final printed copy.</p>`;
+  $('#edition-note').innerHTML = `<p>${esc(book.editionNote ?? state.sourceLabel)}</p>${book.source?.status ? `<p>${esc(book.source.status)}</p>` : ''}<p>The text follows the revised print layout dated 23 February 2017. The complete PDF includes the original illustrations, diagrams, and author biographies.</p>`;
   if (!Array.isArray(dimensions) && dimensions.introduction) $('#dimension-introduction').innerHTML = paragraphs(dimensions.introduction);
   renderDimensions(); renderQuestions(); route();
 } catch (error) {
