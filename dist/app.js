@@ -27,6 +27,7 @@ function normaliseQuestion(question) {
 function dimensionIds(dimension) { return asArray(dimension.questions ?? dimension.questionIds).map(value => Number(typeof value === 'object' ? value.id ?? value.number : value)); }
 function dimensionTitle(dimension) { return dimension.title ?? dimension.name ?? `${dimension.left} – ${dimension.right}`; }
 function questionLinks(ids) {
+  if (ids.length === 98) return '<button type="button" data-all-questions><span>↗</span>All other questions<span aria-hidden="true">→</span></button>';
   return ids.map(Number).filter(id => state.questions.some(question => question.id === id)).map(id => {
     const question = state.questions.find(item => item.id === id);
     return `<button type="button" data-question="${id}"><span>${String(id).padStart(2, '0')}</span>${esc(question.text)}<span aria-hidden="true">↗</span></button>`;
@@ -157,6 +158,7 @@ document.addEventListener('click', async event => {
   const dimensionRead = event.target.closest('[data-dimension-read]');
   const intro = event.target.closest('[data-intro]');
   const page = event.target.closest('[data-page]');
+  const allQuestions = event.target.closest('[data-all-questions]');
   if (question) openQuestion(question.dataset.question);
   else if (save) {
     const id = Number(save.dataset.save);
@@ -172,6 +174,8 @@ document.addEventListener('click', async event => {
     const item = state.intro[intro.dataset.intro];
     $('#article-body').innerHTML = `<p class="eyebrow">${esc(state.sourceLabel)}</p><h2 id="article-title">${esc(item[0])}</h2><div class="original-writing">${paragraphs(item.slice(1))}</div>`;
     openDialog($('#article'));
+  } else if (allQuestions) {
+    closeDialogs(false); clearFilters(); renderQuestions(); history.replaceState(null, '', '#questions'); $('#questions').scrollIntoView({behavior: 'smooth'});
   } else if (page) {
     state.page = Number(page.dataset.page); renderQuestions(); $('#result-count').scrollIntoView({behavior: 'smooth'});
   } else if (dimension) selectRoute('dimension', dimension.dataset.dimension);
