@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#b4a000">
+  <title>The 99 Essential Business Questions · Book of Questions</title>
+  <meta name="description" content="Read the original 99 Essential Business Questions, follow the situations and dimensions, and find the writing of the seven authors.">
+  <meta property="og:title" content="The 99 Essential Business Questions">
+  <meta property="og:description" content="The questions, the situations, and the thinking behind the book.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script type="module" src="app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#questions">Skip to the questions</a>
+  <header class="site-header"><div class="header-inner container">
+    <a class="brand" href="#top" aria-label="Book of Questions, home"><span class="brand-mark">99<span>?</span></span><span>Book of<br>Questions</span></a>
+    <nav aria-label="Main navigation"><a href="#questions">The questions</a><a href="#dimensions">Dimensions</a><a href="#writing">Writing</a><a href="#authors">Authors</a><a href="#book">The book</a></nav>
+  </div></header>
+  <main id="top">
+    <section class="hero container" aria-labelledby="hero-title">
+      <div class="hero-copy"><p class="eyebrow">The book of questions</p>
+        <h1 id="hero-title"><span class="hero-99">99</span><span>Essential<br>business<br>questions<span class="title-stop">.</span></span></h1>
+        <p class="hero-deck">To take you beyond the obvious management actions.</p>
+        <div class="hero-actions"><a class="button button-primary" href="#questions">Read the questions <span aria-hidden="true">↗</span></a><button class="button button-plain" id="random-hero" type="button">Pick one for me <span aria-hidden="true">↝</span></button></div>
+        <p class="hero-credits">Gia Campari · David Glassman · Michael Jeans · Patrick McHugh · David Peregrine-Jones · David Shannon · Benjamin Taylor</p>
+      </div>
+      <div class="hero-art"><div class="cover-grid" aria-hidden="true"><span>?</span><span>?</span><span>?</span><span>?</span><span>?</span><span>?</span><span>?</span><span class="selected">?</span></div><button class="hero-question" data-question="82" type="button"><span class="eyebrow">Question 82</span><span>What am I pretending<br>not to know or to see?</span><span aria-hidden="true">↗</span></button></div>
+    </section>
+
+    <section class="section container" id="questions" aria-labelledby="questions-title">
+      <div class="section-heading"><div><p class="section-number">01 / The questions</p><h2 id="questions-title">The questions</h2></div><p>Search all 99 questions, or choose a situation or dimension.</p></div>
+      <div class="book-sections" id="book-sections" aria-label="Read the opening sections of the book"></div>
+      <div class="universal-box"><p>The authors identify six questions that can be used in any situation.</p><button class="button button-plain" id="universal" type="button" aria-pressed="false">Show the six questions ↗</button></div>
+      <div class="browser-layout">
+        <aside class="filter-panel" aria-label="Find questions">
+          <div class="field"><label for="search">Words or question number</label><input id="search" type="search" placeholder="Try ‘trust’, ‘change’, or 82" autocomplete="off"></div>
+          <div class="field"><label for="situation">Your situation</label><select id="situation"><option value="">All situations</option></select></div>
+          <div class="field"><label for="dimension">A dimension</label><select id="dimension"><option value="">All dimensions</option></select></div>
+          <p class="filter-note" id="dimension-note" hidden>The dimensions are restored from the development manuscripts. The book’s situation links remain separate.</p>
+          <button class="button button-plain" id="random" type="button">Choose a question at random ↝</button>
+          <div class="collection-bar"><button class="chip" id="saved-filter" type="button" aria-pressed="false">My selection <span id="saved-count">0</span></button><button class="button button-plain" id="print-selection" type="button">Print selection ↗</button></div>
+          <p class="filter-note">Your selection stays in this browser. No account is needed.</p>
+          <button class="button button-plain" id="reset" type="button">Clear filters</button>
+        </aside>
+        <div class="results"><div id="situation-reading"></div><div class="result-count" id="result-count" role="status" aria-live="polite">Loading the questions…</div><div class="notice" id="load-error" hidden>The questions couldn’t load. Please reload the page.</div><ol class="question-list" id="question-list"></ol><div class="pagination" id="pagination"></div><noscript><p>This question browser needs JavaScript. The book and author links below remain available.</p></noscript></div>
+      </div>
+    </section>
+
+    <section class="section dimension-section" id="dimensions" aria-labelledby="dimensions-title"><div class="container">
+      <div class="section-heading"><div><p class="section-number">02 / Restored from the manuscripts</p><h2 id="dimensions-title">Ten dimensions.</h2></div><p>Each runs between two poles.<br>The original scheme offers another way to find a question.</p></div>
+      <div class="dimension-grid" id="dimension-grid"></div>
+      <details class="source-note"><summary>Why the dimensions are here</summary><p>The early manuscripts organised questions through ten dimensions, as well as situations and linked sequences. The dimensions were dropped before publication. They’re restored here from those earlier documents; they don’t replace the book’s situation links.</p><div id="dimension-introduction"></div></details>
+    </div></section>
+
+    <section class="section container" id="writing" aria-labelledby="writing-title">
+      <div class="section-heading"><div><p class="section-number">03 / Around the questions</p><h2 id="writing-title">Writing and examples</h2></div><p>The authors’ examples, methods, and other writing.</p></div>
+      <div class="reading-grid" id="writing-grid"></div>
+      <div class="reading-grid external-reading">
+        <a class="reading-link" href="https://www.familyfriendlyworking.co.uk/2016/11/22/family-or-work-or-both-by-gia-campari/" target="_blank" rel="noopener"><span class="eyebrow">Gia Campari · November 2016</span><h3>Family or work or both?</h3><p>Questions 73, 83, and 97, applied to the choices between work and family.</p><span class="reading-arrow" aria-hidden="true">↗</span></a>
+        <a class="reading-link" href="https://theoutliersinn.com/episode-19-leadership-organizational-strategy/" target="_blank" rel="noopener"><span class="eyebrow">Gia Campari &amp; Benjamin Taylor · June 2017 · Audio</span><h3>Leadership and organisational strategy</h3><p>A conversation on The Outliers Inn.</p><span class="reading-arrow" aria-hidden="true">↗</span></a>
+        <a class="reading-link" href="https://alumni.sri.com/newsletters/2017/AlumNews-Apr-2017.pdf#page=12" target="_blank" rel="noopener"><span class="eyebrow">Gia Campari · April 2017</span><h3>How the book came about</h3><p>Gia’s account in the SRI Alumni newsletter.</p><span class="reading-arrow" aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+
+    <section class="section authors-section" id="authors" aria-labelledby="authors-title"><div class="container">
+      <div class="section-heading"><div><p class="section-number">04 / The seven</p><h2 id="authors-title">The authors</h2></div><p>Brought together as fellow members of the Worshipful Company of Management Consultants.</p></div>
+      <div class="author-grid">
+        <article class="author"><span class="author-number">01</span><h3>Gia Campari</h3><p>Leadership, organisational change, and performance.</p><a href="https://uk.linkedin.com/in/giacampari" target="_blank" rel="noopener">Gia on LinkedIn ↗</a></article>
+        <article class="author"><span class="author-number">02</span><h3>David Glassman</h3><p>Executive coaching and mentoring.</p><a href="https://wcit.org.uk/event/pan-livery-mentoring-workshop-2/" target="_blank" rel="noopener">David’s mentoring work ↗</a></article>
+        <article class="author"><span class="author-number">03</span><h3>Michael Jeans</h3><p>Top teams and strategy deployment.</p><a href="https://quagon.co.uk/" target="_blank" rel="noopener">Quagon Consulting ↗</a></article>
+        <article class="author"><span class="author-number">04</span><h3>Patrick McHugh</h3><p>Engineering, strategy, and management consultancy.</p><a href="https://www.wcomc.org/the-company/master2002" target="_blank" rel="noopener">Patrick at WCoMC ↗</a></article>
+        <article class="author"><span class="author-number">05</span><h3>David Peregrine-Jones</h3><p>Management consultancy and business development.</p><a href="https://uk.linkedin.com/in/davidperegrinejones" target="_blank" rel="noopener">David on LinkedIn ↗</a></article>
+        <article class="author"><span class="author-number">06</span><h3>David Shannon</h3><p>Projects, programmes, and organisational improvement.</p><a href="https://brilink.co.uk/about" target="_blank" rel="noopener">David at BRILINK ↗</a></article>
+        <article class="author"><span class="author-number">07</span><h3>Benjamin P Taylor</h3><p>Public service transformation, systems, and management.</p><a href="https://antlerboy.com/" target="_blank" rel="noopener">Benjamin’s work ↗</a></article>
+      </div>
+      <p class="design-credit">Cover design: <a href="https://redquadrant.com/designrichpictures/" target="_blank" rel="noopener">Natasa Sears ↗</a></p>
+    </div></section>
+
+    <section class="section container" id="book" aria-labelledby="book-title">
+      <div class="book-layout"><img class="book-cover" src="assets/book-cover.png" alt="Original cover of The 99 Essential Business Questions, in mustard yellow, black, and white" width="720" height="1080" loading="lazy"><div class="book-copy"><p class="section-number">05 / The book</p><h2 id="book-title">The 99 Essential<br>Business Questions</h2><p class="book-subtitle">To take you beyond the obvious management actions.</p><p>Published by Filament Publishing in 2016. The book brings together the questions, reasons for asking them, possible insights, links to other questions, and management situations.</p><p>Print ISBN 9781910819890<br>Ebook ISBN 9781911425694</p><div class="hero-actions"><a class="button button-primary" href="https://spe.org.uk/reading-room/book-reviews/the-99-essential-business-questions/" target="_blank" rel="noopener">Read Vicky Pryce’s review ↗</a><a class="button button-plain" href="https://www.wcomc.org/news/nl-novdec-16" target="_blank" rel="noopener">The 2016 launch ↗</a></div><details class="source-note"><summary>About this edition of the site</summary><div id="edition-note"></div><p>The writing is credited to its authors. Development material is dated and labelled. The earlier dimensions are retained as an additional index.</p></details></div></div>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="container"><a class="brand" href="#top"><span class="brand-mark">99<span>?</span></span><span>Book of<br>Questions</span></a><p>© The authors. Book published by Filament Publishing, 2016.<br>Cover design © Natasa Sears.</p><div class="footer-links"><a href="https://github.com/antlerboy/book-of-questions">Source on GitHub ↗</a><a href="#questions">Back to the questions ↑</a></div></div></footer>
+  <dialog class="reader" id="reader" aria-labelledby="reader-title"><div class="reader-shell"><div class="reader-header"><span class="eyebrow" id="reader-kicker">The questions</span><button class="close-button" data-close="reader" aria-label="Close question" type="button">×</button></div><div class="reader-body" id="reader-body"></div></div></dialog>
+  <dialog class="article" id="article" aria-labelledby="article-title"><div class="reader-shell"><div class="reader-header"><span class="eyebrow">Around the questions</span><button class="close-button" data-close="article" aria-label="Close writing" type="button">×</button></div><div class="article-content" id="article-body"></div></div></dialog>
+  <div class="print-only" id="print-content"></div>
+</body>
+</html>

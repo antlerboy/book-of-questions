@@ -1,0 +1,447 @@
+[
+  {
+    "id": "process-outcomes",
+    "number": 1,
+    "title": "Process–Outcomes",
+    "tagline": "Outcomes without processes are random results.",
+    "why": [
+      "We cannot think of a business where process management is not at the core of performance and this management must always be focused through the added value of the process outputs.",
+      "How you develop your organization on the Process - Outcomes dimension will influence your organisational model in terms of cultural values, customer focus and the behavioural characteristics of your individuals and teams."
+    ],
+    "description": [
+      "Any activity, or set of activities, that uses resources to transform inputs into outputs can be considered as a process. Without identifying, understanding and managing interrelated processes as a system no organization can be effective and efficient. Process management matters.",
+      "Business processes provide the wherewithal to create organisations that are focused on satisfying the customer – whether external to the organisation through core business processes or internal through support processes. Processes connect strategy to operations. Processes provide a competitive differentiating factor and a way for organisations to compete beyond their product, service or marketing mix.",
+      "Processes can be classified as primary, adding value to customers, or supporting processes. They can be flexible or rigid, can involve large or little delegation, can be elegantly designed and communicated or a bureaucratic nightmare.",
+      "Getting to grips with business processes can be time consuming, as it requires an understanding of the flow, the critical steps and the competencies that contribute to the process. As many a Quality Assurance manager responsible for certifying a business process can testify, you can become so engrossed in the process itself, that you lose sight of the final objective, the ultimate business outcome that the process needs to deliver.",
+      "If, on the other hand, you focus only on outcomes, you may convince yourself that any means will justify the outcome. Ultimately in business, as in life, 'the end justifies the means' usually reveals itself to be a short-sighted strategy.",
+      "Good process management allows for normal operations as well as for extraordinary situations. Response to a crisis should not be abandonment of process compliance, but a shift in line with policy to the appropriate process."
+    ],
+    "examples": [
+      "The Alzheimer's Society seeking to improve its impact and public benefit has chosen to organise functionally with its operations focused on beneficiaries whilst the finance, research, training, campaigning, people, marketing and fundraising functions are kept in the back room. http://alzheimers.org.uk/site/scripts/documents_info.php?documentID=80.",
+      "A multinational was so focused on the perceived differences of each group of customers that they ended up with 15 different sales processes for basically the same product provision. It took the implementation of a new IT system to bring them to their senses. With some encouragement, they were able to design a single process that satisfied all customers and the organisation's internal needs.",
+      "There are many examples of people short cutting the agreed processes for a quick result. An example is rushing to hire a person without consulting members of the team that the person will be joining. The consequence can be spending a lot of time re-gaining the trust of colleagues."
+    ],
+    "summary": [
+      "Processes and Outcomes are inevitably connected",
+      "Asking the questions connected with this Dimension should help you bring both aspects into focus and correct any distortion."
+    ],
+    "questionIds": [
+      2,
+      18,
+      20,
+      22,
+      38,
+      47,
+      48,
+      56,
+      63,
+      86
+    ],
+    "status": "Development draft, 2014",
+    "source": "Book of Q draft.V3.docx, 15 July 2014. Original question links retained. Editorial placeholders and drafting comments omitted."
+  },
+  {
+    "id": "structure-culture",
+    "number": 2,
+    "title": "Structure–Culture",
+    "tagline": "Culture eats structure for dinner, every time",
+    "why": [
+      "The knee-jerk reaction to an unexpected downturn in turnover or profits is to reorganise. Rarely does this type of reorganisation bring the desired results and when it does the results are usually short term.",
+      "More attention is paid to correcting structure than to culture. Formal structural changes can be imposed quickly, but if at odds with strong embedded cultures the new structure can unravel, failing to deliver expected benefits. Understanding cultures takes expertise. Changing culture typically takes years rather than weeks. It can be done in less time if the organisation is fighting for survival and has a strong leader.",
+      "Misunderstanding the issues on this dimension results in addressing the wrong drivers. It risks any change being both temporary and ineffective."
+    ],
+    "description": [
+      "By structure we do not mean any particular type of structure, which can vary from strongly hierarchical, through web structures to networks. All lasting organisations have structure, so an understanding of this concept is important.",
+      "Probably even more influential in organisations are the internal cultures. Not being sensitive to these and how, if necessary, to influence them leads to much wasted effort on change programmes.",
+      "Every organisation needs structure, which can refer to the manner in which a company/department/team etc is formally organised. Structure provides clarity on functions and roles to all stakeholders and includes organisation charts, formal delegation of authority, policies, procedures and task allocation.",
+      "The structure of an organization should be appropriate for its business model and its activities. Once defined, however, even if not ideal for its activities, it can be difficult to change.",
+      "When people populate the structure, a culture is created. Culture is a complex mix of many things, the most important manifestation of the culture of an organisation is the way the people in the organisation behave. Structure is only one of a multitude of elements that affect culture, which is created through history, industry sector, type of people, nationality, ethnicity etc, etc. The founder of the organisation invariably leaves her/his mark on the culture of the organisation she/he created",
+      "Existing Culture can cause resistance to any change sought in Structure and vice versa"
+    ],
+    "examples": [
+      "One of the authors undertook the re-organisation of a major bank, including merging the back-offices of two with very different cultures. Half-way through this process it became evident that one of the two banks was itself a result of the merger nearly twenty years previously of two geographically differently based banks. These subcultures turned out to be equally important to recognise in detailing the structural and personnel changes required.",
+      "Another example was the co-location of four companies working together on a major London urban development. It had been assumed that this structural decision would lead to improved co-operation. In the event the hierarchical cultures within some of these organisations undermined any potential improvement in cooperation. No attempt had been made to recognise and deal with this constraint."
+    ],
+    "summary": [],
+    "questionIds": [
+      1,
+      4,
+      14,
+      23,
+      26,
+      30,
+      37,
+      38,
+      51,
+      61,
+      77,
+      86,
+      88,
+      90,
+      92,
+      94,
+      98,
+      99
+    ],
+    "status": "Development draft, 2014",
+    "source": "Book of Q draft.V3.docx, 15 July 2014. Original question links retained. Editorial placeholders and drafting comments omitted."
+  },
+  {
+    "id": "tactical-strategic",
+    "number": 3,
+    "title": "Tactical–Strategic",
+    "tagline": "Tactics without strategy are grapeshot.",
+    "why": [
+      "This dimension is significant because it helps us to distinguish between the urgent and the important.",
+      "That separation will aid delegation because it will bring clarity to 'what only I can do' and 'what others might do': an understanding that seems to characterise the methods of the most successful leaders. Additionally, it should help us to focus better our time and energy on achieving our true goals, on time and with the resources available.",
+      "Most importantly, addressing this dimension will help ensure that your strategy leads your tactics and that your tactical initiatives support your strategy."
+    ],
+    "description": [
+      "Strategy is predicated on the existence of a goal and covers the few, essential aspects around delivering the promises we make. Each aspect will be discrete, each can be identified readily with the overall objectives of the organisation and each is capable of implementation individually.",
+      "The success of any strategy will be judged on its implementation. Otherwise the exercise is academic. The implication is that, outside one-person entities, the execution will be done by others, in the name of the leader.",
+      "Strategic initiatives have a timescale, between origination and delivery, that can extend to many years. Those whose roles are strategic need to have skill sets that range from the creative, through the tolerance to uncertainty required in the early stages, to the juggling abilities that enable the supporting teams and their individual members to complete their tactical tasks to plan.",
+      "Tactics cover the shorter-term initiatives framed within each strategy.",
+      "To deliver the tactical success that enables strategic achievement, the leader will need to communicate the goal and the strategy to the team members, to listen to their responses and to weigh the need for modification in the light of the expertise of those closest to the coal face.",
+      "Those responsible for the tactical matters cannot implement what they cannot understand or feel fully committed to [see Engagement]. Nor will they be able to hit a target when they cannot embrace aspirations [see Aspirations] they do not share or which are not shared with them.",
+      "The longer-term strategy might need to be protected through short-term, tactical interventions should events impact in an unforeseen way. The astute leader will plan her time to permit that, recognising that 'the battle plan will not survive the first contact with the enemy' and her priority is to be where the decisions need to be taken.",
+      "It is interesting that the institutions that have survived the longest, the military and organised religion, both have structures and processes that recognise the differences between tactics and strategy, and allocate resources accordingly.",
+      "For instance, in the army, the timescale for decisions is rationed as to 70% for those in the field and 30% for headquarters, at each level."
+    ],
+    "examples": [],
+    "summary": [
+      "Aid the allocation of resources to what is key",
+      "Determine priorities for action",
+      "Provide a shared focus",
+      "Support the delegation through which individuals and organisations are enabled to both grow and mature"
+    ],
+    "questionIds": [
+      8,
+      13,
+      23,
+      29,
+      32,
+      36,
+      45,
+      46,
+      49,
+      55,
+      63,
+      73,
+      75,
+      79,
+      80,
+      81,
+      85,
+      92,
+      96
+    ],
+    "status": "Development draft, 2014",
+    "source": "Book of Q draft.V3.docx, 15 July 2014. Original question links retained. Editorial placeholders and drafting comments omitted."
+  },
+  {
+    "id": "self-understanding-others",
+    "number": 4,
+    "title": "Self understanding–Understanding others",
+    "tagline": "O wad some Power the giftie gie us To see oursels as ithers see us! Robert Burns 'O would some power the gift give us To see ourselves as others see us!' Hell is other people (Jean-Paul Sartre)",
+    "why": [
+      "Every interaction in a company is a relationship and you can create empowering or disempowering relationships. The latter is only possible if you understand yourself and others and know how to flex your communications so as to enhance the relationships.",
+      "Adaptability is one of the most important of all the success factors we can identify and understanding the barriers to personal change is a pre-requisite.",
+      "Understanding self without understanding those with whom you interface can lead to a breakdown in relationships; for example, it is very rare that the fault in a divorce lies totally with one of the parties"
+    ],
+    "description": [
+      "Inside any company/department/team, an individual needs to work with others – nobody is an island",
+      "Externally, you may need to work with suppliers, customers, government departments (e.g. HMRC!)",
+      "If the Situation that confronts you appears to be connected with this Dimension, then it could be important that you analyse just where the balance of lack of understanding lies between self and others",
+      "Such an analysis may be aided by using some of the questions associated with this Dimension",
+      "The two extremes of this dimension are interdependent: you need to understand yourself first, before you can hope to understand others."
+    ],
+    "examples": [
+      "Aristotle started it off with his famous extension of Socrates statement that 'the unexamined life is not worth living' by claiming that no one could disagree that all we do is either to just to help us live or to help us live well. He claimed that while the first is needed to achieve the second, the latter has no further purpose.",
+      "Understanding oneself is needed at both levels – whether to see more clearly the difficulties we all encounter in changing our natural inclinations when they come up against our longer term interests (giving up smoking, watching rather than participating and so on) or in gaining a better insight into the same difficulties encountered by others – who may not have the same desire to change or lack the confidence and motivation to undertake such change by themselves.",
+      "While examples from self-help groups to AA are well known, changing ingrained patterns of behaviour within an organisation is one of the most time consuming and frustrating tasks we can imagine. Because like an individual, a company has a pattern of behaviour and this is, in practice, the key to its past and future success."
+    ],
+    "summary": [],
+    "questionIds": [
+      3,
+      6,
+      11,
+      16,
+      17,
+      19,
+      20,
+      24,
+      27,
+      33,
+      39,
+      40,
+      41,
+      42,
+      48,
+      50,
+      57,
+      60,
+      64,
+      65,
+      68,
+      72,
+      76,
+      78,
+      82,
+      83,
+      87,
+      88,
+      89,
+      91,
+      93,
+      95,
+      96,
+      97,
+      98,
+      99
+    ],
+    "status": "Development draft, 2014",
+    "source": "Book of Q draft.V3.docx, 15 July 2014. Original question links retained. Editorial placeholders and drafting comments omitted."
+  },
+  {
+    "id": "autocratic-consensus",
+    "number": 5,
+    "title": "Autocratic–Consensus",
+    "tagline": "'When I want your opinion, I'll give it to you'. Laurence J Peter; also attributed to Samuel Goldwyn",
+    "why": [
+      "It is a vital dimension to which you and, perhaps even more importantly, your colleagues can readily relate. The benefits of responding to these questions by adjusting your actions to suit better the particular situation will include: quicker progress, greater commitment to decisions, developing staff and a more loyal team."
+    ],
+    "description": [
+      "At one extreme is autocratic behaviour, at the other consensual behaviour. In between is a range of management styles, involving aspects of delegation, empowerment and teamwork. Fast decision making without consultation is typical of the autocratic style. Slow laboured and possibly indecisive effort moving towards the lowest common denominator can result from the fully consensual practices. However the full range has its place in different circumstances and even the extremes are often appropriate. Typically between the extremes is behaviour where others are encouraged to give their opinion, even conflicting opinions are encouraged, conflict resolution is a well practiced skill and a range of methods is used for reaching decisions.",
+      "The questions do not seek to encourage any one style, but to help you explore which style is appropriate for your situation. When considering the appropriate style consider the urgency and confidentiality of the situation, the relative competence of yourself and your team, the emotional support needed by the team, and any implications of bruised egos. The maturity stage of the team, whether Forming, Storming, Norming or Performing is also significant.",
+      "Other aspects to bear in mind, particularly in an international context, are the established national cultural preferences.",
+      "Some consistency of style is required to develop expertise and a trusted management personality. Knowingly balancing flexibility in response to the occasion with sufficient personal consistency should be helped by considering questions on this dimension."
+    ],
+    "examples": [
+      "Even large powerful organisations can become subject to persistent autocratic domination, as in the cases of the Mirror Group under Maxwell, with most unfortunate consequences. Waiting too long for consensus has been the plight of many smaller charities which have failed to survive.",
+      "A highly successful director always asked his managers what their proposed solution was to a problem they had raised. He seldom had to dictate a course of action which typically proceeded with their full consent."
+    ],
+    "summary": [
+      "Autocratic behaviour is ruling without constraint",
+      "Consensual behaviour is obtaining general agreement before acting",
+      "There is a range of intermediate styles",
+      "Flexibility of behaviour is required",
+      "The questions help select the appropriate style for the situation"
+    ],
+    "questionIds": [
+      56,
+      62,
+      67,
+      71,
+      86,
+      99
+    ],
+    "status": "Development draft, 2014",
+    "source": "Book of Q draft.V3.docx, 15 July 2014. Original question links retained. Editorial placeholders and drafting comments omitted."
+  },
+  {
+    "id": "known-aspirational",
+    "number": 6,
+    "title": "Known–Aspirational",
+    "tagline": "'If you want to go there, I wouldn't start from here'",
+    "why": [
+      "The significance of this Dimension is that it recognises the need to move and to change. It implies that change through 'more of the same' is a possibility at one end of the Dimension and that Big Hairy Audacious Goals are equally valid at the other. For the curious and the reflective it asks whether 'What got me here will take me there'."
+    ],
+    "description": [
+      "'Know thyself', as engraved over the temple at Delphi, has been the starting point for stocktaking and planning exercises since time immemorial. The value of those projects lies not so much in the list that is produced but in the consultation round the process. The conversation is the relationship, and the rapport established through the task will support the achievement of the chosen targets, in both difficult times and when success requires previously-untrodden paths to be travelled.",
+      "To aspire is to free one's self from restraints, real or imaginary. It opens up, therefore, the possibility of dreaming of 'What could be' and only then considering the mechanics of achievement. Whatever those proposals are they cannot be challenged legitimately because the territory is new and previous hurdles and shibboleths will have no bearing. Here lies the benefit to leaders: everything is possible.",
+      "In moving along the Dimension, nothing will necessarily be 'right' or be 'wrong', and through that realisation can come the creation of a no-blame culture, an essential attribute of organisations that embrace the benefits from inevitable change.",
+      "What is known is usually capable of continuing with minimum creativity until it becomes redundant because the environment has changed. Such projects can be staffed safely with 'grinders' and 'minders' whose loyalty and motivation should not be doubted. Those areas can also provide training for those who are capable of handling 'the new'.",
+      "What is aspirational has never been tried before and therefore entails a greater risk, though doing nothing can be the most risky.",
+      "Crucial factors in managing this risk are self-knowledge, personal and organisational, and the culture. In generating the fast growth that aspiration often produces, the rubric for success must reward creativity, diligence and considered risk-taking, and not only the outcomes, because to do otherwise is likely to stifle the initiatives that aspiration is designed to inculcate and encourage. These roles require 'finders' who are rewarded appropriately.",
+      "Whatever the position on this Dimension, leaders must bestow trust on individuals. Freedom to act, especially towards the aspirational end of the Dimension, can still be moderated through accountability. The need to monitor, measure and evaluate are universally recognised as being reasonable by all stakeholders."
+    ],
+    "examples": [],
+    "summary": [
+      "Respect history",
+      "Know capabilities",
+      "Dare to aspire",
+      "Trust those who will bring benefit to you",
+      "The newer the idea the more it is necessary to measure, monitor and evaluate"
+    ],
+    "questionIds": [
+      5,
+      31,
+      35,
+      46,
+      53,
+      58,
+      59,
+      79,
+      95
+    ],
+    "status": "Development draft, 2014",
+    "source": "Book of Q draft.V3.docx, 15 July 2014. Original question links retained. Editorial placeholders and drafting comments omitted."
+  },
+  {
+    "id": "data-judgement",
+    "number": 7,
+    "title": "Data–Judgement",
+    "tagline": "'Don't confuse me with facts – trust my intuition'",
+    "why": [
+      "Because ultimately, your choices and decisions are a matter of Judgement, which in turn is based on both Data and your experience.",
+      "The collection of Data for its own sake has no purpose. Judgements made without any supporting Data are inherently suspect and risky.",
+      "Seeking sufficient Data to make a perfect Judgement can lead to paralysis by analysis plus the risk of delaying the decision until it is too late."
+    ],
+    "description": [
+      "Few Judgements or decisions can safely be made without being based on some facts. But there will never be sufficient facts to make a perfect Judgement – if there were then direction and management would be easy!",
+      "Often a Judgement needs to be made with inadequate Data; the adequacy of Data needs to be weighed against the method and urgency of the Judgement.",
+      "Judgement can also include logical thinking; such thinking may include feelings, values and concern for others. Judgements based on instinct or intuition can be argued to be supported by evidence - a form of Data - that might be described as experience.",
+      "Judgements are also sometimes justified by selectively seeking supportive facts and ignoring others; this is a dishonest approach.",
+      "The more hard Data you can obtain, the easier it will be for you to back up your Judgement and the process you use to arrive at it – Data is verifiable.",
+      "We often hear people say 'Trust me, I know what I'm doing' and then find it hard to question the Judgement being made without appearing to say that we actually don't trust the person.",
+      "When faced with certain Situations, you will need to determine the amount of Data needed to make your Judgement. The more experience that you have of previous similar Situations, the more you may be able to rely upon that experience and to limit the amount of Data required – but take care, no Situations are ever exactly the same!",
+      "Example: We thought we had found the perfect candidate: she ticked all the boxes; had the exact experience we required and was an enthusiastic worker….but…..there were little signs which could be detected in the words she used or the attitude adopted when answering questions, that made me doubt whether she really was right for the job. She was hired but then let go at the end of her probation period. You may have all the information, but you cannot ignore your intuition; many successful managers are proud of their intuition.",
+      "The Questions associated with this Dimension are designed to help you to determine the amount of Data that may be required to help you come to a sound Judgement when dealing with a Situation."
+    ],
+    "examples": [],
+    "summary": [
+      "You need both Data and Judgement to decide what to do in any Situation",
+      "There is seldom sufficient Data to make a perfect Judgement",
+      "The amount of Data sought must be proportionate to the importance and urgency of the Judgement plus the need to demonstrate that proper process has been followed",
+      "Experience is valuable but no two Situations are ever exactly the same",
+      "Experience alone is not necessarily sufficient to demand that others trust your Judgement",
+      "Examining the data is always a good place to start"
+    ],
+    "questionIds": [
+      7,
+      15,
+      21,
+      34,
+      43,
+      51,
+      54,
+      83,
+      92
+    ],
+    "status": "Development draft, 2014",
+    "source": "Book of Q draft.V3.docx, 15 July 2014. Original question links retained. Editorial placeholders and drafting comments omitted."
+  },
+  {
+    "id": "diverging-converging",
+    "number": 8,
+    "title": "Diverging–Converging",
+    "tagline": "Cast your net to catch your fish",
+    "why": [
+      "Whenever we need a new idea, we need to Diverge, to brainstorm, to examine our options; then we need to Converge and make our choices.",
+      "The skill lies in knowing how much time and energy to dedicate to the former and how much focus to give the latter - how many ideas, products, etc. to choose as our focus."
+    ],
+    "description": [
+      "Diverging views are needed to widen the choices of how to handle a Situation;",
+      "If views Converge too soon, it can lead to less obvious solutions being missed.",
+      "The ideal may be to use Diverging views as part of a process to arrive at a Converging view; unless, of course, too many Diverging views lead to no decision being taken.",
+      "You won't innovate without Diverging - in terms of examining a wide range of facts, ideas, opinions, products, technologies, etc. You need to be curious to Diverge.",
+      "It is a good thing to have Diverging opinions when discussing an issue. It leads to a better outcome. There is a risk that people see Diverging opinions as confrontations and actively avoid them.",
+      "Your confidence in having made the right choice will improve to the extent that you have Diverged before you focus. Too much time spent on Diverging may lead to losing sight of the ultimate goal; Converging too quickly, may lead to opportunities being missed.",
+      "Having a Convergent mindset may lead to you to believing that there is only one right answer – but how can you be so certain, if you haven't considered Diverging views?",
+      "Typically the aptitudes and skills for Diverging are not available in the same people when it comes to Converging but a balanced team can deliver across all stages from initiation to conclusion.",
+      "This dimension can apply to much more than to product or process selection. It may be useful in examining for example: relationships, change programmes, career paths, remunerations, procurements and contracts."
+    ],
+    "examples": [
+      "IBM was the largest technical company in the world, but was diminishing steadily until having examined the options it changed its strategy to become a full Information Services provider.",
+      "When you need to extend your product range, you would naturally look at many possibilities before focusing on a few suggestions and requesting a feasibility study.",
+      "Similarly when hiring people; when examining new markets, technologies etc"
+    ],
+    "summary": [
+      "You need to diverge when examining your options and converge to make a choice",
+      "Diverging leads to increasing the number of options, opinions, different understandings of the same problem",
+      "Converging refers to focusing on a chosen few",
+      "The skill is in knowing how wide to throw the net and when it is time to draw it in and make a choice."
+    ],
+    "questionIds": [
+      25,
+      39,
+      44,
+      51,
+      52,
+      79
+    ],
+    "status": "Development draft, 2014",
+    "source": "Book of Q draft.V3.docx, 15 July 2014. Original question links retained. Editorial placeholders and drafting comments omitted."
+  },
+  {
+    "id": "status-quo-change",
+    "number": 9,
+    "title": "Status quo–Change",
+    "tagline": "Change or be changed.",
+    "why": [
+      "Like all species, people and organisations need to be good at their current role but also to adapt at a rate equal to or faster than their environment, or they become irrelevant and die. This Dimension explores current strengths, changing contexts, capacity for change, what valuable DNA to keep, and how imaginatively the future is created."
+    ],
+    "description": [
+      "A well understood and successful Status Quo is the stable launch pad for Change. This Status Quo is the known, where we feel comfortable and safe; where we know the rules of the game and what it takes to win. The rules of the game change, however, and so must we if we wish to continue.",
+      "The Status Quo seems a safe place to remain; but Situations may arise when remaining in that place is not viable. The problem arises when your business environment changes, but you are so intent on playing by the current rules that you miss the emerging opportunities. If the Status quo is no longer tenable then exploring change is the only survival alternative, no matter what the risk. (Read Touching the Void, by Joe Simpson)",
+      "A good understanding of the Status Quo is necessary because you need to understand where you are now to determine what you need to Change to get where you need to go.",
+      "We all resist Change – even when we instigate it! When we Change we know what we will lose, but we have no certainty about what we might gain. Change is scary! It is always a voyage from the known to the less known.",
+      "If you ask people to change without showing them what they can become, you may be seen as autocratic and not achieve the desired outcome as you will not take people with you. You do not want your people to say, 'Change is what the top requires the middle to inflict on the bottom'.",
+      "Examples abound of companies that missed the boat because they would not change. Common brands of a few years ago, despite their huge advantages, are no longer with us: eg",
+      "Kodak (defined themselves as their product), HMV(stuck with shrinking distribution channels) Nokia (product) Virgin One(changed the mortgage offering in the UK)"
+    ],
+    "examples": [
+      "A national Industrial and Vocational Training Board recognised that although highly successful it needed to adapt to emerging economic circumstances. It commissioned a thorough review, identified its strengths and weaknesses and planned its change programme incorporating major new services. The results were so enhancing that the exercise was repeated and its capacity for change became a recognised key feature of its competence.",
+      "'A man who is used to acting in one way never changes; he must come to ruin when the times, in changing, no longer are in harmony with his ways.'",
+      "Niccolò Macchiavelli, The Prince",
+      "'It must be remembered that there is nothing more difficult to plan, more doubtful of success, nor more dangerous to manage than a new system. For the initiator has the enmity of all who would profit by the preservation of the old institution and merely lukewarm defenders in those who gain by the new ones. '",
+      "Niccolò Macchiavelli"
+    ],
+    "summary": [],
+    "questionIds": [
+      5,
+      9,
+      12,
+      34,
+      66,
+      69,
+      74,
+      84,
+      90
+    ],
+    "status": "Development draft, 2014",
+    "source": "Book of Q draft.V3.docx, 15 July 2014. Original question links retained. Editorial placeholders and drafting comments omitted."
+  },
+  {
+    "id": "detached-engaged",
+    "number": 10,
+    "title": "Detached–Engaged",
+    "tagline": "'Are you part of the solution or of the problem?'",
+    "why": [
+      "Detachment gives you the capability to take a helicopter view of the situation and be in a better position to evaluate the problem objectively. But the solution you find will never be actioned unless you have Engaged with your people. The best performing organisations are those in which their people are Engaged. If you are Detached and neglect Engagement then you will fail to achieve your goals."
+    ],
+    "description": [
+      "It is important in the understanding of this dimension to point out that Detached is not the opposite of Engaged. Neither one is better than the other. You need both and the key is knowing how much of each you need and when, or what is missing, in a particular situation.",
+      "The opposite of Detached is attached and this is not the same as being Engaged. Attachment leads to becoming emotionally involved and creates a dependence on the object of your Attachment, whether a project, a point of view, a person or a job title. Engagement is a state of being committed, passionate and working to fulfil your purpose rather than for purely a financial reward; it is always present in value-driven organisations.",
+      "Engagement can, nevertheless, cause overly defensive positions to be taken when new concepts (products, services, structures etc) are being considered.",
+      "There is no such thing as a completely Detached leader; there can be Detached followers – going along without becoming emotionally Engaged and truly committed.",
+      "Away days that build Engagement will result in little long term benefit unless clearly linked to the Detached view of the organisation's purpose.",
+      "Jack Welch, the former CEO of GE in the USA, said characteristically: 'there are only three measurements that tell you nearly everything you need to know about your organization's overall performance: employee engagement, customer satisfaction and cash flow....it goes without saying that no company, small or large, can win over the long run without energized employees who believe in the mission and understand how to achieve it' Surely this is an example of finding the right combination of being Detached and Engaged.",
+      "Many of us will have been confronted with the difficult Situation of handling a problem with a member of staff who is also a close longstanding colleague or even a friend: just how do you untangle the mix of being Detached and Engaged – but untangle it you must. You will often find yourself in Situations where you have consciously to shift your position on the Detached-Engaged Dimension depending upon the social, personal and business Situation in which you find yourself.",
+      "As with each of the 10 Dimensions, it is unlikely that either extreme of being completely Detached or completely Engaged will prove helpful in confronting a Situation. You will need to decide what degree of bias you should choose between the two extremes."
+    ],
+    "examples": [
+      "A manager in a company was not performing at the level required by the CEO. It turned out that one member of the manager's team was not pulling his weight and this had been noted in poor reviews. The team member was a friend of the manager and, rather than let him go, the manager took on some of his work load. This then resulted in the manager being overloaded and the whole team suffered; it failed to work towards the achievement of its vision and specific goals."
+    ],
+    "summary": [
+      "Being Detached is being able to see the wood not just the trees",
+      "Being Engaged is tending the trees in the wood",
+      "Being Engaged as a manager provides the means to create an organisation that is both focused and cohesive",
+      "Being Engaged is being committed to your work, your goals and self fulfilment",
+      "Organisations thrive on Engagement",
+      "Engaged organisations tend to be value driven",
+      "If you are Detached and lacking in Engagement, you may fail to achieve your purpose – and vice versa. Neither extreme seems likely to resolve a difficult situation"
+    ],
+    "questionIds": [
+      10,
+      19,
+      28,
+      42,
+      62,
+      70,
+      78
+    ],
+    "status": "Development draft, 2014",
+    "source": "Book of Q draft.V3.docx, 15 July 2014. Original question links retained. Editorial placeholders and drafting comments omitted."
+  }
+]

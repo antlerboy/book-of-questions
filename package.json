@@ -1,0 +1,11 @@
+{
+  "name": "book-of-questions",
+  "version": "1.0.0",
+  "private": true,
+  "description": "The 99 Essential Business Questions: questions, situations, dimensions, and writing.",
+  "type": "module",
+  "scripts": {
+    "start": "node scripts/serve.mjs",
+    "check": "node scripts/check.mjs"
+  }
+}
