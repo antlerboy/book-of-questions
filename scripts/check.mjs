@@ -20,6 +20,7 @@ assert.deepEqual([...ids], Array.from({length: 99}, (_, index) => index + 1), 'Q
 for (const question of book.questions) {
   assert(question.text && question.why.length && question.insights.length, `Question ${question.id} is incomplete.`);
   assert(!/copyright|all rights reserved|\.indd\b/i.test([...question.why, ...question.insights].join(' ')), `A production footer leaked into question ${question.id}.`);
+  assert(!question.insights.includes('The 99 Questions'), `The book index leaked into question ${question.id}.`);
   for (const id of question.related) assert(ids.has(id), `Question ${question.id} links to absent question ${id}.`);
 }
 assert.equal(book.situations.length, 47, 'The manuscript has 47 situations.');
