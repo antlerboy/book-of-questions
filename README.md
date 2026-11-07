@@ -32,7 +32,7 @@ GitHub Actions publishes `dist/` to GitHub Pages after each push to `main`, foll
 
 ## Crawler and indexing controls
 
-The HTML asks compliant search engines not to index, follow links, archive, show snippets, or index images. This is a public website, not access-controlled content. GitHub Pages does not provide custom response headers or server-side bot blocking for this project. A robots.txt file only takes effect at https://antlerboy.github.io/robots.txt, not inside /book-of-questions/; root hosting for that policy is pending approval.
+The HTML asks compliant search engines not to index, follow links, archive, show snippets, or index images. This is a public website, not access-controlled content. GitHub Pages does not provide custom response headers or server-side bot blocking for this project. The live crawler policy is at https://antlerboy.github.io/robots.txt, maintained in the separate antlerboy/antlerboy.github.io repository. It excludes this project's path for all compliant crawlers and explicitly names major AI/search/training crawlers, without affecting other project paths. A robots.txt inside /book-of-questions/ would not take effect. Robots exclusions may also prevent a search engine from reading noindex, so a linked URL can still appear without indexed page content.
 
 These voluntary controls cannot prevent non-compliant scraping or guarantee exclusion from AI training, and cannot recall existing copies. The public GitHub repository, its raw files, API endpoints and clones remain independently accessible. Website robots rules do not protect that source.
 
