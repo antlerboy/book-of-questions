@@ -46,6 +46,7 @@ for (const item of writing) {
   for (const id of item.questionIds ?? []) assert(ids.has(id));
 }
 const html = await read('dist/index.html');
+assert(html.includes('<meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex">'), 'Keep the public site opted out of search indexing.');
 for (const name of ['Gia Campari', 'David Glassman', 'Michael Jeans', 'Patrick McHugh', 'David Peregrine-Jones', 'David Shannon', 'Benjamin P Taylor', 'Natasa Sears']) assert(html.includes(name), `Missing credit: ${name}`);
 for (const relative of ['dist/index.html', 'dist/app.js', 'dist/styles.css', ...['book', 'dimensions', 'writing'].map(name => `dist/data/${name}.json`)]) {
   const text = await read(relative);
